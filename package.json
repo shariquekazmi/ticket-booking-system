@@ -1,10 +1,10 @@
 {
   "name": "ticket-booking-system",
   "version": "1.0.0",
-  "main": "app.ts",
+  "main": "server.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon server.ts"
+    "dev": "ts-node-dev src/server.ts"
   },
   "repository": {
     "type": "git",
