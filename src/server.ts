@@ -3,7 +3,7 @@ import fs from 'fs';
 import express from 'express';
 
 const stage = process.env.Stage || 'local';
-const envFilePath = `stage.${stage}.env`
+const envFilePath = `.stage.${stage}.env`
 
 if (fs.existsSync(envFilePath)) {
     dotenv.config({ path: envFilePath });
